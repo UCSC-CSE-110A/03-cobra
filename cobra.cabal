@@ -17,7 +17,7 @@ data-files:
   tests/yourTests.json
 
 Library
-  ghc-options:         -W -threaded
+  ghc-options:         -W
   exposed-modules:     Language.Cobra.Utils,
                        Language.Cobra.UX,
                        Language.Cobra.Types,

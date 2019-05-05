@@ -172,7 +172,7 @@ You should raise errors in the following cases:
 - `add1` and `sub1` should raise an error with the substring `expected a number`
   if the argument isn't a number
 
-- `+`, `-`, and `*` should raise an error with the substring `arithmetic
+- `add1`, `sub1`, `+`, `-`, and `*` should raise an error with the substring `arithmetic
   overflow` if the result overflows, and falls outside the range representable
   in 31 bits. The `jo` instruction (not to be confused with the Joe Instructor)
   which jumps if the last instruction overflowed, is helpful here.
