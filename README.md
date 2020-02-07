@@ -4,9 +4,10 @@
 
 ## Download
 
+
 ```
-git clone https://github.com/ucsd-cse131-sp19/03-cobra.git
-$ cd 03-cobra/
+$ git clone https://github.com/UCSC-CSE-110A/hw3-<username>.git
+$ cd hw3-<username>/
 ```
 
 In this assignment you'll implement a small language called Cobra,
@@ -433,7 +434,7 @@ Here's _one_ order in which you could consider tackling the implementation:
 
 6. Complete the `If` case and test as you go.
 
-## Crafting Good Tests (Extra Credit)
+## Crafting Good Tests (up to 10% Extra Credit)
 
 As in the last assignment, we are going to use the tests from your
 `tests/yourTests.json` file to check whether you were able to break any of our N
@@ -442,19 +443,7 @@ test cases that will catch as many types of bugs as possible.
 
 ## Submission Instructions
 
-We will be using [Gradescope](http://www.gradescope.com) for homework collection and grading.
+We will be using GitHub Classroom for all submissions.
 
-To submit your assignment, first create a `zip` file of your submission by
-running the following from assignment's root directory:
-
-```bash
-make zip
-```
-
-This will create a zip file called `cobra.zip` that you can proceed to upload
-to Gradescope. That's it! You should receive feedback from Gradescope as soon
-as the submission is graded.
-
-You can submit your assignment individually or as a group of 2 students. Please
-see [this page](https://www.gradescope.com/help#help-center-item-student-group-members)
-for instructions on how to add group members.
+To submit your assignment, commit and push your code to your GitHub Classrom repository. Note: GitHub Classroom
+treats commits that are pushed after the deadline as separate submissions.
